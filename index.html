@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Javascript Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
+</head>
+<body>
+        <div class="container">
+                <div class="row">
+                    <div class="col-11 mx-auto text-center my-5">
+                    <form class="my-5" id="customer-form">
+                    <h3 class="text-capitalize">get a free course</h3>
+                    <div class="feedback text-center  text-capitalize">
+                        calculating.....
+                    </div>
+                    <!-- single input -->
+                    <div class="input-group my-3">
+                        <div class="input-group-prepend">
+                        <span class="input-group-text"><i class="fas fa-user"></i></span>
+                        </div>
+                        <input type="text" class="form-control text-capitalize name" id="name" placeholder="customer name">
+                    </div>
+                    <!-- end of single input -->
+                    <!-- single input -->
+                    <div class="input-group my-3">
+                        <div class="input-group-prepend">
+                        <span class="input-group-text"><i class="fas fa-book"></i></span>
+                        </div>
+                        <input type="text" class="form-control text-capitalize course" placeholder="course" id="course">
+                    </div>
+                    <!-- end of single input -->
+                    <!-- single input -->
+                    <div class="input-group my-3">
+                        <div class="input-group-prepend">
+                        <span class="input-group-text"><i class="fas fa-user-circle"></i></span>
+                        </div>
+                        <input type="text" class="form-control text-capitalize author" placeholder="author" id="author">
+                    </div>
+                    <!-- end of single input -->
+                    <button type="submit" class="btn btn-block submitBtn text-uppercase mt-4">submit</button>
+                    </form>
+                
+                    <div class="loading">
+                    <img src="img/loading.gif" alt="">
+                    </div>
+                    <div class="row customer-list">
+                
+                
+                    </div>
+                
+                    </div>
+                    </div>
+                    </div>
+            </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
